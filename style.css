@@ -1,7 +1,8 @@
 
 /* Base Element Styles */
 
- 
+@import url ("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
 * {
   box-sizing: border-box;
 }
@@ -10,16 +11,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Source Code Pro', monospace, sans-serif;
 }
 
 h1, p {
   text-align: center;
-  font-family: 'Source Code Pro', monospace;
 }
 
 img {
-   width: 100%;
-   height: 100%; 
+   max-width: 100%;
+   max-height: 100%; 
    padding: 0;
    margin: 0;
 }
@@ -28,47 +29,21 @@ a {
   color: black;
 }
 
-.container {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #D0D4D6;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
-.container img {
-  max-width: 300px;
-}
-
-.profile {
-  background-color: black;
-}
-
-.profile-face {
-
-}
-
-.main-content {
-  margin: 0 auto;
-}
-
 .main-nav {
   width: 100%;
   background: gray;
   min-height: 30px;
-  padding: 10px;
-  position: relative;
+  padding: 3%;
   text-align: center;
+  position: relative;
   display: inline-block;
 }
 
 .nav {
-  display: flex;
+  display: block;
   justify-content: space-around;
   font-weight: 100;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace, sans-serif;
   font-color: #8D969A;
   list-style-type: none;
   margin: 0 auto;
@@ -76,7 +51,6 @@ a {
 }
 
 .nav .name {
-  display: block;
   margin-right: auto;
   text-transform: uppercase;
 
@@ -84,7 +58,13 @@ a {
 .nav li {
   padding: 5px 10px 10px 10px;
   text-transform: uppercase;
-  display: inline-block;
+  display: block; 
+  margin: 10px;
+}
+
+/* Left off here working on the list display block*/
+.nav li a {
+  background-color: #F0EFEF;
 }
 
 .nav a {
@@ -93,17 +73,44 @@ a {
   background-color: gray;
   padding: 8px;
   border-radius: 2px;
-
 }
+
 .nav a:hover {
-  color: black;
+  color: white;
 }
 
-.contact {
-  background-color: ;
+.portfolio-piece {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  /* styling guidelines
+  background: #D0D4D6;
+  border-radius: 6px;*/
 }
 
-.group:after {
+.main-content {
+  margin: 0 auto;
+}
+
+.main-footer li {
+  list-style-type: none;
+}
+
+.container-bottom {
+  background-color: gray;
+  padding: 10% 3% 3% 3%;
+}
+
+.contact h1 {
+  text-transform: uppercase;
+}
+
+.contact a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -112,18 +119,17 @@ a {
 
 /* Media Queries */
 
-@media (min-width: 320px) {
-   .main-nav {
-    display: block;
-    text-align: center;
-   }
+@media screen and (min-width: 320px) {
+   
 }
 
-@media (min-width: 768px){
-  
+@media screen and (min-width: 768px){
+  .nav {
+    display: flex;
+  }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
   
 }
 
