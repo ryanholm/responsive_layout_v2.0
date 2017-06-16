@@ -36,25 +36,24 @@ a {
   padding: 3%;
   text-align: center;
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .nav {
   display: block;
-  justify-content: space-around;
   font-weight: 100;
   font-family: 'Source Code Pro', monospace, sans-serif;
   font-color: #8D969A;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
 .nav .name {
-  margin-right: auto;
   text-transform: uppercase;
-
+  font-size: 32px;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
   text-transform: uppercase;
@@ -62,17 +61,15 @@ a {
   margin: 10px;
 }
 
-/* Left off here working on the list display block*/
 .nav li a {
   background-color: #F0EFEF;
+  display: block;
 }
 
 .nav a {
-  transition: all .5s;
   text-decoration: none;
   background-color: gray;
-  padding: 8px;
-  border-radius: 2px;
+  padding: 8px 130px;
 }
 
 .nav a:hover {
@@ -83,9 +80,6 @@ a {
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  /* styling guidelines
-  background: #D0D4D6;
-  border-radius: 6px;*/
 }
 
 .main-content {
