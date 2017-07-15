@@ -91,7 +91,7 @@ a {
 
 .container-bottom {
   background-color: gray;
-  padding: 10% 3% 3% 3%;
+  padding: 3% 3% 3% 3%;
 }
 
 .contact h1 {
@@ -118,6 +118,10 @@ a {
 
 @media screen and (min-width: 768px){
   
+  .main-nav {
+    height: 350px;
+  }
+
   .main-nav li {
     float: left;
   }
@@ -129,26 +133,48 @@ a {
 
   .nav li a {
     display: block;
+    position: relative;
+    left: 200px;
     padding: 5px;
     margin: 1px;
   }
 
-  .profile-face {
+  .profile-face img {
     position: relative;
     top: 1px;
     right: 3px;
-  }
-
-  img {
     float: right;
     width: 35%;
-    margin-right: 5%;
+    margin-right: 2%;
   }
 
   .intro-text {
     position: relative;
     top: 0;
     left: 5px;
+  }
+
+  .intro-text p {
+    width: 60%;
+    font-size: 19px;
+  }
+
+  .col {
+    display: inline-block;
+    padding: 1%;
+  }
+
+  .portfolio-piece {
+    width: 42%;
+    margin: 2%;
+  }
+
+  .portfolio-piece h1 {
+    font-size: 20px;
+  }
+
+  .portfolio-piece p {
+    font-size: 13px;
   }
 }
 
