@@ -179,7 +179,32 @@ a {
 }
 
 @media screen and (min-width: 1024px){
-  
+
+  .name {
+    position: absolute;
+    right: 375px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .nav li a {
+    left: 650px;
+  }
+
+  .intro-text p {
+    text-align: left;
+  }
+
+  .main-content {
+    width: 90%;
+  }
+
+  .col {
+    width: 28%;
+  }
+
+
+
 }
 
 
