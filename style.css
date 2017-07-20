@@ -1,7 +1,7 @@
 
 /* Base Element Styles */
 
-@import url ("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 * {
   box-sizing: border-box;
@@ -43,7 +43,7 @@ a {
   display: block;
   font-weight: 100;
   font-family: 'Source Code Pro', monospace, sans-serif;
-  font-color: #8D969A;
+  color: #FFFFFF;
   list-style-type: none;
   margin: 0;
   padding: 0;
