@@ -176,6 +176,10 @@ a {
     font-size: 13px;
   }
 
+/*Adding obvious red text and background color 
+so when I get the CSS to apply it will show for connect class
+right now the css won't apply to the HTML for some reason*/
+
   .connect li a {
     display: block;
     float: right;
