@@ -1,7 +1,7 @@
 
-/* Base Element Styles */
-
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/* Base Element Styles */
 
 * {
   box-sizing: border-box;
@@ -103,6 +103,10 @@ a {
   text-decoration: none;
 }
 
+.second-footer ul {
+  display: none;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -111,10 +115,6 @@ a {
 
 
 /* Media Queries */
-
-@media screen and (min-width: 320px) {
-   
-}
 
 @media screen and (min-width: 768px){
   
@@ -175,6 +175,21 @@ a {
 
   .portfolio-piece p {
     font-size: 13px;
+  }
+
+/*Adding obvious red text and background color 
+so when I get the CSS to apply it will show for connect class
+right now the css won't apply to the HTML for some reason*/
+
+  .connect li a {
+    display: block;
+    float: right;
+    margin: 0 5px;
+    padding: 0;
+    background-color: blue;
+    text-decoration: none;
+    list-style-type: none;
+    color: red;
   }
 }
 
