@@ -131,12 +131,21 @@ a {
     width: 100%;
   }
 
+  .main-nav ul li {
+    padding-right: 30px;
+  }
+
+  li.name {
+    padding-right: 2px;
+  }
+
   .nav li a {
     display: block;
     position: relative;
     left: 200px;
     padding: 5px;
     margin: 1px;
+    background-color: gray;
   }
 
   .profile-face img {
@@ -237,6 +246,14 @@ a {
 
   .profile-face img {
     max-width: 300px;
+  }
+
+   .student li a {
+    padding-left: 30px;
+  }
+
+  li.nameme {
+    padding-right: 500px;
   }
 
 }
