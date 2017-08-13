@@ -87,6 +87,7 @@ a {
 
 .main-footer li {
   list-style-type: none;
+
 }
 
 .container-bottom {
@@ -101,6 +102,10 @@ a {
 .contact a {
   text-align: center;
   text-decoration: none;
+}
+
+ul.move {
+  padding-right: 37px;
 }
 
 .mobile-hide {
