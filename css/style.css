@@ -103,7 +103,7 @@ a {
   text-decoration: none;
 }
 
-.second-footer ul {
+.mobile-hide {
   display: none;
 }
 
@@ -177,19 +177,31 @@ a {
     font-size: 13px;
   }
 
-/*Adding obvious red text and background color 
-so when I get the CSS to apply it will show for connect class
-right now the css won't apply to the HTML for some reason*/
-
-  .connect li a {
+  .mobile-hide {
     display: block;
-    float: right;
-    margin: 0 5px;
-    padding: 0;
-    background-color: blue;
+  }
+
+  .student li {
+    display: block;
+    float: left;
+    margin: 1px;
+    padding: 1px;
     text-decoration: none;
     list-style-type: none;
-    color: red;
+    border-top: solid #c0c4c6;
+    padding-top: 20px;
+  }
+
+  .student li a {
+    padding-left: 30px;
+  }
+
+  li.nameme {
+    padding-right: 290px;
+  }
+
+  .tablet-hide {
+    display: none;
   }
 }
 
